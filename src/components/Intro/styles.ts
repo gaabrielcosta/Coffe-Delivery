@@ -4,7 +4,6 @@ export const HomeContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  /* margin-top: 5.875rem; */
   h1 {
     font-family: 'Baloo 2', sans-serif;
     font-weight: 800;
@@ -64,10 +63,6 @@ export const Option = styled.span`
     border: 6px solid ${(props) => props.theme['purple-500']};
   }
 `
-// interface RowProps {
-//   width: string
-//   children: any
-// }
 
 export const Row = styled.div<{ width: number }>`
   display: flex;
